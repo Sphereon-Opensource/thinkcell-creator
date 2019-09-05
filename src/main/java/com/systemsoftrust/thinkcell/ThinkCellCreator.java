@@ -42,8 +42,12 @@ public class ThinkCellCreator {
         this.templateProcessor = templateProcessor;
     }
 
-    public Iterable<CSVRecord> execute(String inputCsf) {
-        Iterable<CSVRecord> records = datasetReader.parse(new File(inputCsf));
+    public Iterable<CSVRecord> execute(String inputCsv) {
+        File file = new File(inputCsv);
+        if (!file.isFile()) {
+            throw new ThinkCellException("Input file is not found: " + inputCsv);
+        }
+        Iterable<CSVRecord> records = datasetReader.parse(file);
 
         if (records == null) {
             throw new ThinkCellException("Could not retrieve CSV records from file");

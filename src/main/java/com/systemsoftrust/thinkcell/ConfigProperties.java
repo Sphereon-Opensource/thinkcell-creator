@@ -96,7 +96,7 @@ public class ConfigProperties {
     @Validated
     public class Template {
         @NotNull
-        private String outputFile = "output-template.ftl";
+        private String outputFile = "config/output-template.ftl";
         private String directory = "";
         private String locale = "US";
 
