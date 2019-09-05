@@ -98,3 +98,24 @@ You can copy the values between the  ------ CUT ------ lines
     ]
 }]
 ```
+
+## Current configuration support
+```properties
+# The delimer used in the CSV file
+thinkcell.csv.delimeter=;
+
+# Whether a header line is present in the CSV file
+thinkcell.csv.header-line-present=true
+
+# CSV format to use. One of "excel", "default"
+thinkcell.csv.format=excel
+
+# The directory where the templates are stored
+thinkcell.template.directory=src/main/resources/
+
+# The template file to use for the output json
+thinkcell.template.output-file=output-template.ftl
+
+# The template local US by default
+thinkcell.template.locale=en-US
+```
