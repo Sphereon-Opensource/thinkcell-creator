@@ -10,7 +10,7 @@
 
     <groupId>com.systemsoftrust</groupId>
     <artifactId>think-cell</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
 
 
     <properties>
@@ -29,7 +29,7 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/Sphereon-Opensource/thinkcell-creator.git</developerConnection>
-      <tag>think-cell-1.0.0</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <dependencies>
