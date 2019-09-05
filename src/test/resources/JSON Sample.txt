@@ -1,0 +1,21 @@
+[{
+		"template": "template.pptx",
+		"data": [{
+				"name": "Chart5",
+				"table": 
+				[
+					[null, {"string": "Abadi"}, {"string": "NLNG"}, {"string": "Lake Charles"}],
+					[], 
+					[{"string": "Shipping"}, {"number": 1}, {"number": 2}, {"number": 3}], 
+					[{"string": "Gov't Take"}, {"number": 1}, {"number": 2}, {"number": 3}], 
+					[{"string": "Acquisition Costs"}, {"number": 1}, {"number": 2}, {"number": 3}], 
+					[{"string": "OPEX"}, {"number": 1}, {"number": 2}, {"number": 3}], 
+					[{"string": "Feedgas"}, {"number": 1}, {"number": 2}, {"number": 3}], 
+					[{"string": "Non LNG Revenue(condensate, domgas)"}, {"number": 1}, {"number": 2}, {"number": 3}], 
+					[{"string": "LNG Delivered Cost"}, {"number": -1}, {"number": -2}, {"number": -3}], 
+					[{"string": "CAPEX"}, {"number": 4}, {"number": 5}, {"number": 6}]
+				]
+			}
+		]
+	}
+]
